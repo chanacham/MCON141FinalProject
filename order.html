@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="order.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- navbar made with bootstrap -->
+  <div class="topnav">
+      <a class="active" href="index.html">Home</a>
+      <a href="order.html">Order</a>
+      <a href="gallery.html"> Menu</a>
+      <a href="about.html">About Us!</a>
+      <a href="testimonials.html">Testimonials</a>
+
+    </div>
+    <!-- order form made using resources from W3Schools plus some creative CSS styling -->
+<h2 class="center2">Order Form</h2>
+<div class="container">
+  <form action="/action_page.php">
+  <div class="row">
+    <div class="col-25">
+      <label for="fname">First Name</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="lname">Last Name</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    </div>
+  </div>
+    <div class="row">
+    <div class="col-25">
+      <label for="fname">Email:</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="fname" name="email" placeholder="Your email..">
+    </div>
+  </div>
+    <div class="row">
+    <div class="col-25">
+      <label for="fname">Seminary</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="fname" name="seminary" placeholder="Your seminary..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="country">Please select which cake you would like to order:</label>
+    </div>
+    <div class="col-75">
+      <select id="cake" name="cake">
+        <option value="Chocolate Cake" name="Chocolate Cake">Chocolate Cake</option>
+        <option value="Macaron Cake" name="Macaron Cake">Macaron Cake</option>
+        <option value="Oreo Cake" name="Oreo Cake">Oreo Cake</option>
+        <option value="Rainbow Cake" name="Rainbow Cake">Rainbow Cake</option>
+        <option value="Sprinkles Cake" name="Sprinkles Cake">Sprinkles Cake</option>
+        <option value="Strawberry Cake" name="Strawberry Cake">Strawberry Cake</option>
+
+
+      </select>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="subject">Please provide a brief note to be handwritten with love:</label>
+    </div>
+    <div class="col-75">
+      <textarea id="subject" name="subject" placeholder="Write here.." style="height:200px"></textarea>
+    </div>
+  </div>
+  <br>
+  <div class="row">
+    <input type="submit" value="Submit">
+  </div>
+  </form>
+</div>
+<!-- Converter imported using an API based off of tutorials from W3Schools -->
+<div class="converter">
+  <h2>Currency Converter</h2>
+  <p>We know it can be confusing ordering cakes when the prices are in shekel so we have included a currency converter for your convinience.</p>
+  <iframe style="border: none;" width="251" height="348" id="themoneyconverter-maxi" src="https://themoneyconverter.com/CurrencyConverter?tab=0&amp;bg=ffffff&amp;from=USD&amp;to=EUR" marginwidth="0" marginheight="0" scrolling="no" seamless="seamless"></iframe>
+</div>
+
+<!-- button made with CSS styling -->
+<div class="center">
+  <a href="index.html">
+  <button type="button" name="home" class = "button button1 buttonStyle">
+  Click here to return home!!</button>
+  </a>
+</div>
+<!-- footer created with bootstrap components and some CSS styling -->
+<footer class="page-footer">
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-md-8 col-sm-12">
+            <h3>Kashrus Information</h6>
+            <p>Sent From Home uses stricly mehadrin ingrediants and is certified under the strictest letter of kosher law. </p>
+            <p>All of our employes are Shomer Shabbat and uphold kashrus to the highest standard.</p>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-12">
+        <h4>Contact</h6>
+        <p>123 Rechov Paran
+        <br/>info@mywebsite.com
+        <br/>+ 972 234 567 88
+        <br/>+ 972 234 567 89</p>
+    </div>
+<div>
+<div class="footer-copyright text-center">© 2020 Copyright: Mywebsite.com</div>
+</footer>
+
+</body>
+</html>

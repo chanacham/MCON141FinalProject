@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Testimonials</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="test.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<!-- navbar created using bootstrap and CSS styling -->
+<body class="background">
+  <div class="topnav">
+      <a class="active" href="index.html">Home</a>
+      <a href="order.html">Order</a>
+      <a href="gallery.html">Menu</a>
+      <a href="about.html">About Us!</a>
+      <a href="testimonials.html">Testimonials</a>
+    </div>
+
+<!-- header that I made using some basic CSS and the box model -->
+  <div class="header">
+    <h1 class="header">Testimonials</h1>
+  </div>
+
+<!-- this carousel was inspired by a bootstrap component I found on the bootstrap website.
+I found a better version on W3Schools and than played around with it to show both the <picture>
+  that the review was referring to in additon to text. I than added the arrow and line indicators on
+  the bottom from a different template that was on the bootstrap website. I had some issues with the JavaScript
+  parts so I moved the JS to a different file and played around with it until I got it to work.
+ -->
+<div class="container">
+  <h2 class="line">Hear what our former customers have to say!</h2>
+  <div id="myCarousel" class="carousel slide">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li class="item1 active"></li>
+      <li class="item2"></li>
+      <li class="item3"></li>
+      <li class="item4"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+
+      <div class="item active">
+        <img src="strawberryCake.jpg" alt="strawberry" width="460" height="345">
+        <div class="carousel-caption">
+          <h3>Leah H.</h3>
+          <p>My order for a strawberry cake was out of this world! The service was impeccable and the cake was delicious!</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="chocolateCake.jpg" alt="chocolate" width="460" height="345">
+        <div class="carousel-caption">
+          <h3>Sarah J.</h3>
+          <p>My daughter was raving about her chocolate cake! It made her feel so special on her special day!</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="oreoCake.jpg" alt="Oreo" width="460" height="345">
+        <div class="carousel-caption">
+          <h3>Julie K.</h3>
+          <p>The Oreo cake was scrumptious! Thank you for your delicious cake!</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="sprinklesCake.jpg" alt="sprinkles" width="460" height="345">
+        <div class="carousel-caption">
+          <h3>Leah R.</h3>
+          <p>The handwritten note was the perfect touch to the sweetest sprinkle cake! Thank you so much!</p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Left and right controls that move to the next slide when you click-->
+    <a class="left carousel-control" href="#myCarousel" role="button">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+<!-- Link to all the JavaScript that enables this component to function -->
+<script src="test.js">
+</script>
+
+</body>
+</html>
